@@ -1,0 +1,39 @@
+services:
+  mongo:
+    image: mongo:7.0
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    # Not published to the host on purpose; only the app container can reach it.
+
+  app:
+    build:
+      context: .
+      args:
+        INSTALL_AI: "true"   # multilingual embeddings + anthropic SDK; "false" = smaller image, hash embedder
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+    ports:
+      - "8080:8080"
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - app_storage:/app/.nicegui
+      - documents:/app/storage/documents   # encrypted uploads
+      - chroma:/app/storage/chroma          # vector index (rebuilt at start-up)
+      - hf_cache:/app/storage/hf            # downloaded embedding model
+
+volumes:
+  mongo_data:
+  app_storage:
+  documents:
+  chroma:
+  hf_cache:

@@ -1,0 +1,11 @@
+.env
+.git
+.venv
+venv
+__pycache__
+.pytest_cache
+.nicegui
+tests
+.claude
+storage
+sample_documents

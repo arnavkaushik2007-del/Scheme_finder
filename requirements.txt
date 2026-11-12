@@ -1,0 +1,24 @@
+# Core runtime. Optional LLM SDK is in requirements-ai.txt.
+fastapi==0.162.0
+uvicorn[standard]==0.46.0
+pydantic==2.13.4
+pydantic-settings==2.14.1
+email-validator>=2.2
+nicegui==4.0.0
+motor==3.7.1
+pymongo==4.17.0
+argon2-cffi==25.1.0
+PyJWT==2.12.1
+cryptography==48.0.0
+httpx==0.28.1
+python-multipart>=0.0.20
+# Documents (step 3): PDF text, OCR (needs the tesseract binary + eng/hin data), images
+pymupdf==2.1
+pytesseract==0.3.13
+pillow==12.2.0
+# Retrieval: local persistent vector store
+chromadb==1.5.9
+# Fake-account anomaly model (Isolation Forest)
+scikit-learn==1.9.1
+# In-memory MongoDB, used by the test-suite and by MONGO_URL=mongomock:// (dev only)
+mongomock-motor==0.0.36

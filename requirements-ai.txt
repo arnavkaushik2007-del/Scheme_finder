@@ -1,0 +1,8 @@
+-r requirements.txt
+# Multilingual embeddings (Hindi + English): intfloat/multilingual-e5-small.
+# Without this the app falls back to a small built-in hashing embedder and says so.
+sentence-transformers>=5.0
+# Hindi/English speech-to-text (ENABLE_VOICE=true). The model downloads on first use.
+faster-whisper>=1.2
+# Only needed when LLM_PROVIDER=anthropic. Without it the app uses the labelled mock LLM.
+anthropic>=1.0

@@ -1,0 +1,114 @@
+{
+  "aadhaar": {
+    "name": {"en": "Aadhaar Card", "hi": "आधार कार्ड"},
+    "where": {"en": "Enrol free at any Aadhaar Seva Kendra or bank/post office enrolment centre, or download e-Aadhaar from myaadhaar.uidai.gov.in.", "hi": "किसी भी आधार सेवा केंद्र या बैंक/डाकघर के नामांकन केंद्र पर मुफ़्त नामांकन कराएँ, या myaadhaar.uidai.gov.in से ई-आधार डाउनलोड करें।"}
+  },
+  "bank_passbook": {
+    "name": {"en": "Bank Passbook / Account Details", "hi": "बैंक पासबुक / खाते का विवरण"},
+    "where": {"en": "Issued by your bank or post office when you open a savings account; the first page shows account number and IFSC.", "hi": "बचत खाता खोलने पर आपका बैंक या डाकघर इसे देता है; पहले पन्ने पर खाता संख्या और IFSC लिखा होता है।"}
+  },
+  "income_certificate": {
+    "name": {"en": "Income Certificate", "hi": "आय प्रमाण पत्र"},
+    "where": {"en": "Apply at the Tehsil/SDM office, Common Service Centre (CSC) or your state's e-District portal.", "hi": "तहसील/एसडीएम कार्यालय, जन सेवा केंद्र (CSC) या अपने राज्य के ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।"}
+  },
+  "caste_certificate": {
+    "name": {"en": "Caste Certificate", "hi": "जाति प्रमाण पत्र"},
+    "where": {"en": "Apply at the Tehsil/SDM office, CSC or your state's e-District portal with family caste proof.", "hi": "परिवार की जाति के प्रमाण के साथ तहसील/एसडीएम कार्यालय, जन सेवा केंद्र या राज्य के ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।"}
+  },
+  "ration_card": {
+    "name": {"en": "Ration Card", "hi": "राशन कार्ड"},
+    "where": {"en": "Issued by your state Food & Civil Supplies Department; apply at the local supply office or state food portal.", "hi": "राज्य का खाद्य एवं नागरिक आपूर्ति विभाग जारी करता है; स्थानीय आपूर्ति कार्यालय या राज्य के खाद्य पोर्टल पर आवेदन करें।"}
+  },
+  "bpl_card": {
+    "name": {"en": "BPL Card / BPL Certificate", "hi": "बीपीएल कार्ड / गरीबी रेखा प्रमाण पत्र"},
+    "where": {"en": "Issued by the Gram Panchayat/Block office in villages or the municipal body in towns, based on the state BPL list.", "hi": "राज्य की बीपीएल सूची के आधार पर गाँव में ग्राम पंचायत/ब्लॉक कार्यालय और शहर में नगर निकाय जारी करता है।"}
+  },
+  "disability_certificate": {
+    "name": {"en": "Disability Certificate / UDID Card", "hi": "दिव्यांगता प्रमाण पत्र / यूडीआईडी कार्ड"},
+    "where": {"en": "Apply on swavlambancard.gov.in and get assessed by the medical board at the district government hospital.", "hi": "swavlambancard.gov.in पर आवेदन करें और ज़िला सरकारी अस्पताल के मेडिकल बोर्ड से जाँच कराएँ।"}
+  },
+  "age_proof": {
+    "name": {"en": "Age Proof", "hi": "आयु प्रमाण"},
+    "where": {"en": "Use your birth certificate, Class 10 marksheet, passport or voter ID as proof of age.", "hi": "जन्म प्रमाण पत्र, दसवीं की अंकसूची, पासपोर्ट या वोटर आईडी को आयु प्रमाण के रूप में इस्तेमाल करें।"}
+  },
+  "address_proof": {
+    "name": {"en": "Address Proof", "hi": "पते का प्रमाण"},
+    "where": {"en": "Use Aadhaar, voter ID, ration card, electricity bill or bank passbook showing your current address.", "hi": "आधार, वोटर आईडी, राशन कार्ड, बिजली बिल या वर्तमान पता दिखाने वाली बैंक पासबुक का इस्तेमाल करें।"}
+  },
+  "passport_photo": {
+    "name": {"en": "Passport-size Photograph", "hi": "पासपोर्ट साइज़ फ़ोटो"},
+    "where": {"en": "Get recent colour photographs taken at any photo studio or CSC.", "hi": "किसी भी फ़ोटो स्टूडियो या जन सेवा केंद्र से हाल की रंगीन फ़ोटो खिंचवाएँ।"}
+  },
+  "marksheet": {
+    "name": {"en": "Marksheet / Pass Certificate", "hi": "अंकसूची / उत्तीर्ण प्रमाण पत्र"},
+    "where": {"en": "Issued by your school board or university; digital copies are available on DigiLocker.", "hi": "आपका स्कूल बोर्ड या विश्वविद्यालय जारी करता है; डिजिटल प्रति डिजीलॉकर पर भी मिलती है।"}
+  },
+  "admission_proof": {
+    "name": {"en": "Admission Proof", "hi": "प्रवेश का प्रमाण"},
+    "where": {"en": "Ask your college or institution office for the admission letter or current-year enrolment slip.", "hi": "अपने कॉलेज या संस्थान के कार्यालय से प्रवेश पत्र या चालू वर्ष की नामांकन पर्ची लें।"}
+  },
+  "fee_receipt": {
+    "name": {"en": "Fee Receipt", "hi": "शुल्क रसीद"},
+    "where": {"en": "Collect the fee receipt from your institution's accounts office after paying the fees.", "hi": "शुल्क जमा करने के बाद संस्थान के लेखा कार्यालय से शुल्क रसीद लें।"}
+  },
+  "land_record": {
+    "name": {"en": "Land Record (Khatauni / 7-12 / ROR)", "hi": "भूमि अभिलेख (खतौनी / 7-12 / अधिकार अभिलेख)"},
+    "where": {"en": "Download from your state's Bhulekh land-records portal or get a copy from the Patwari/Tehsil office.", "hi": "अपने राज्य के भूलेख पोर्टल से डाउनलोड करें या पटवारी/तहसील कार्यालय से प्रति लें।"}
+  },
+  "husband_death_certificate": {
+    "name": {"en": "Husband's Death Certificate", "hi": "पति का मृत्यु प्रमाण पत्र"},
+    "where": {"en": "Issued by the Gram Panchayat or municipal birth-and-death registrar where the death was registered.", "hi": "जहाँ मृत्यु दर्ज हुई थी, वहाँ की ग्राम पंचायत या नगर निकाय का जन्म-मृत्यु रजिस्ट्रार जारी करता है।"}
+  },
+  "death_certificate": {
+    "name": {"en": "Death Certificate of Family Earner", "hi": "परिवार के कमाने वाले सदस्य का मृत्यु प्रमाण पत्र"},
+    "where": {"en": "Issued by the Gram Panchayat or municipal birth-and-death registrar where the death was registered.", "hi": "जहाँ मृत्यु दर्ज हुई थी, वहाँ की ग्राम पंचायत या नगर निकाय का जन्म-मृत्यु रजिस्ट्रार जारी करता है।"}
+  },
+  "birth_certificate": {
+    "name": {"en": "Birth Certificate", "hi": "जन्म प्रमाण पत्र"},
+    "where": {"en": "Issued by the Gram Panchayat, municipal office or hospital registrar where the birth was registered.", "hi": "जहाँ जन्म दर्ज हुआ था, वहाँ की ग्राम पंचायत, नगर निकाय या अस्पताल का रजिस्ट्रार जारी करता है।"}
+  },
+  "pregnancy_registration": {
+    "name": {"en": "Pregnancy Registration (MCP Card)", "hi": "गर्भावस्था पंजीकरण (मातृ-शिशु सुरक्षा / MCP कार्ड)"},
+    "where": {"en": "Register the pregnancy at the nearest Anganwadi centre or government health centre to get the MCP card.", "hi": "नज़दीकी आंगनवाड़ी केंद्र या सरकारी स्वास्थ्य केंद्र पर गर्भावस्था दर्ज कराकर MCP कार्ड लें।"}
+  },
+  "job_card": {
+    "name": {"en": "MGNREGA Job Card", "hi": "मनरेगा जॉब कार्ड"},
+    "where": {"en": "Apply at your Gram Panchayat; the job card is issued free to rural households.", "hi": "अपनी ग्राम पंचायत में आवेदन करें; ग्रामीण परिवारों को जॉब कार्ड मुफ़्त मिलता है।"}
+  },
+  "domicile_certificate": {
+    "name": {"en": "Domicile / Residence Certificate", "hi": "मूल निवास / निवास प्रमाण पत्र"},
+    "where": {"en": "Apply at the Tehsil/SDM office, CSC or your state's e-District portal.", "hi": "तहसील/एसडीएम कार्यालय, जन सेवा केंद्र या राज्य के ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।"}
+  },
+  "mobile_number": {
+    "name": {"en": "Mobile Number (linked to Aadhaar)", "hi": "मोबाइल नंबर (आधार से जुड़ा)"},
+    "where": {"en": "Use your own active mobile number; link it to Aadhaar at any Aadhaar Seva Kendra for OTP verification.", "hi": "अपना चालू मोबाइल नंबर दें; OTP सत्यापन के लिए इसे किसी आधार सेवा केंद्र पर आधार से जुड़वाएँ।"}
+  },
+  "school_bonafide": {
+    "name": {"en": "School / College Bonafide Certificate", "hi": "विद्यालय / महाविद्यालय का अध्ययनरत प्रमाण पत्र"},
+    "where": {"en": "Request it from your school principal or college office.", "hi": "अपने विद्यालय के प्रधानाचार्य या महाविद्यालय कार्यालय से माँगें।"}
+  },
+  "vendor_certificate": {
+    "name": {"en": "Certificate of Vending / Letter of Recommendation", "hi": "वेंडिंग प्रमाण पत्र / अनुशंसा पत्र"},
+    "where": {"en": "Issued by your Urban Local Body (municipality) or Town Vending Committee after a vendor survey.", "hi": "वेंडर सर्वे के बाद आपका नगर निकाय या टाउन वेंडिंग कमेटी जारी करती है।"}
+  },
+  "pan_card": {
+    "name": {"en": "PAN Card", "hi": "पैन कार्ड"},
+    "where": {"en": "Apply online through the Income Tax e-filing portal (instant e-PAN with Aadhaar) or via NSDL/UTIITSL.", "hi": "आयकर ई-फ़ाइलिंग पोर्टल (आधार से तुरंत ई-पैन) या NSDL/UTIITSL के ज़रिए ऑनलाइन आवेदन करें।"}
+  },
+  "project_report": {
+    "name": {"en": "Business Plan / Project Report", "hi": "व्यवसाय योजना / परियोजना रिपोर्ट"},
+    "where": {"en": "Prepare it yourself or with help from the bank, a CSC or the District Industries Centre.", "hi": "इसे स्वयं बनाएँ या बैंक, जन सेवा केंद्र अथवा ज़िला उद्योग केंद्र की मदद लें।"}
+  },
+  "sowing_certificate": {
+    "name": {"en": "Crop Sowing Certificate", "hi": "फ़सल बुवाई प्रमाण पत्र"},
+    "where": {"en": "Issued by the Patwari or village agriculture officer for the current season's crop.", "hi": "चालू मौसम की फ़सल के लिए पटवारी या ग्राम कृषि अधिकारी जारी करता है।"}
+  },
+  "samagra_id": {
+    "name": {"en": "Samagra ID (Madhya Pradesh)", "hi": "समग्र आईडी (मध्य प्रदेश)"},
+    "where": {"en": "Register at the Gram Panchayat or municipal ward office, or on samagra.gov.in.", "hi": "ग्राम पंचायत या नगर निकाय के वार्ड कार्यालय में अथवा samagra.gov.in पर पंजीकरण कराएँ।"}
+  },
+  "self_declaration": {
+    "name": {"en": "Self-declaration Form", "hi": "स्व-घोषणा पत्र"},
+    "where": {"en": "Fill in the scheme's prescribed declaration form available at the office or portal where you apply.", "hi": "जहाँ आवेदन कर रहे हैं, उस कार्यालय या पोर्टल पर उपलब्ध योजना का निर्धारित घोषणा पत्र भरें।"}
+  }
+}
